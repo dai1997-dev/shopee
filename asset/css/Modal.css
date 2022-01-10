@@ -1,0 +1,114 @@
+.auth__form{
+    background-color: var(--white-color);
+    border-radius: 5px;
+    width: 550px;
+}
+.auth__form--container{
+    padding: 0 40px;
+}
+/* header */
+.auth__form--header{
+    display: flex;
+    align-items: center;
+    padding: 24px 0;  
+    justify-content: space-between;
+}
+.auth__form--heading{
+    font-size: 2.2 rem;
+    font-weight: 700;
+    color: var(--text-color);
+
+}
+.auth__form--swith-btn{
+    font-size: 2.2 rem;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-weight: 750;
+}
+/* form */
+.auth__form--input{
+    width: 94%;
+    height: 40px;
+    margin-top: 25px;
+    padding: 0 12px;
+    font-size: 1.4 rem;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    border-radius: 2px;
+}
+.auth__form--input:focus{
+    border-color: #888;
+}
+.auth__form--aside{
+    margin-top: 18px;
+}
+.auth__form--policytext{
+    font-size: 12px;
+    line-height: 1.8rem;
+    text-align: center;
+    padding: 0 12px;
+}
+.auth__form--policytext-link{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+/* button */
+.auth__form--controls{
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+/* social */
+/* auth form */
+.auth__form--social{
+    background-color: #f5f5f5;  
+    padding: 30px 36px;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.auth__form--social-icon{
+    font-size: 18px;
+}
+.auth__form--social--text{
+    margin: 0px 24px;
+}
+/* facebook */
+.auth__form--social-facebook{
+    color: var(--white-color);
+    background-color: #3a5a98; 
+    text-decoration: none;
+
+}
+.auth__form--social-facebook
+.auth__form--social-icon{
+    color: var(--white-color);
+}
+/* google */
+.auth__form--social-google{
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: white;
+    margin-left: 20px;
+}
+/* login form */
+.auth__form--help{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+.auth__from--help-link{
+    text-decoration: none; 
+    color: #939393;
+
+}
+.auth__from--help-color{
+    color: var(--primary-color);
+}
+.auth__form--help-seipark{
+    display: block;
+    border-left: 1px solid #eaeaea;
+    height: 18px;
+    margin: 0px 16px;
+}
